@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: './src/index.js',
     mode: 'development',
     output: {
         filename: 'main.js',
@@ -10,9 +10,9 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/, use: ['style-loader', 'css-loader']
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
             }
-
         ]
     }
 }
