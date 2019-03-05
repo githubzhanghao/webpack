@@ -1,0 +1,13 @@
+{
+  "name": "demo3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
