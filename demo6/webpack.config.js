@@ -1,4 +1,5 @@
 
+
 var path = require('path');
 
 module.exports = {
@@ -11,12 +12,12 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
+                test: /\.js$/,
                 use: {
                     loader: 'babel-loader'
                 }
             }
         ]
     }
+
 }
